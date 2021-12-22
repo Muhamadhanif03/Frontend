@@ -1,0 +1,22 @@
+h1{
+    font-family: arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    transition: all 0.5s ease-in-out;
+    border-bottom: 2px solid black;
+    padding: 0.7em;
+}
+h1:hover{
+    color: darkblue;
+    padding: 1.5em;
+}
+img{
+    width: 30%;
+    height: 400px;
+    padding: 1.3em;
+    transition: all 0.5s ease-out;
+}
+img:hover{
+    padding: 0.5em;
+    cursor: pointer;
+}
