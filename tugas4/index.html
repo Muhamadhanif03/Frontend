@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhamad Hanif Muslim</title>
+    <style>
+        #vid{
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+        .content{
+            background-color: #000000;
+            opacity: 0.7;
+            position: absolute;
+            top: 110px;
+            left: 125px;
+            width: 80%;
+            height: 60%;
+            align-items: center;
+            border-radius: 20px;
+        }
+        p{
+            font-family: calibri;
+            font-weight:bold;
+            letter-spacing: 1px;
+            color:#ffffff;
+            font-size: 60px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .content p{
+            margin:50px 50px 25px;
+            line-height:0px;
+        }
+        .content img{
+            position: relative;
+            top: 10%;
+            left: 40%;
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+        }
+        #msc{
+            position: absolute;
+            margin-top: 365px;
+            margin-left: 470px;
+        }
+    </style>
+</head>
+<body>
+    <video src="vid.mp4" muted loop autoplay id="vid"></video>
+    <div class="content" id='cnt'>
+        <p>Play The Music Here...</p>
+        <img src="foto_icon_musik.svg">
+    </div>
+    <audio controls autoplay id="msc">
+        <source src="music.mp3" type="audio/mp4" >
+    </audio>
+</body>
+</html>
